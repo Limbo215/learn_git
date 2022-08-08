@@ -1,10 +1,12 @@
-class Dom:
-    def __init__(self, temp):
-        temp = temp
+# git commit -am " "
+class House:
+    def __init__(self):
+        self.t = 20
 
-    def cond(self, temp):
-        temp -= 1
+    def konder(self, x=1):
+        self.t -= x
+        print(f"vi ohladili pomeschenie na {x} gradusov")
 
-    def otop(self, temp):
-        temp += 1
-
+    def batareya(self, x=1):
+        self.t += x
+        print(f"vi nagreli pomeschenie na {x} gradusov")
