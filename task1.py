@@ -1,5 +1,6 @@
 # git commit -am "коммент"
 # git remote add origin и ссылку гитхаба
+# git clone и ссылка из code
 class House:
     def __init__(self):
         self.t = 20
